@@ -21,6 +21,9 @@ public class SetterDemoApp {
 		// let's call our new method's for fortune
 		System.out.println(theCoach.getDailyFortune());
 		
+		System.out.println(theCoach.getEmailAddress());
+		System.out.println(theCoach.getTeam());
+		
 		
 		// close the context
 		context.close();
